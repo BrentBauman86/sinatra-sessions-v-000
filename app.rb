@@ -4,7 +4,7 @@ class App < Sinatra::Base
   configure do
     enable :sessions unless test?
     set :session_secret, "secret"
-    binding.pry
+    # binding.pry
   end
 
   before do
